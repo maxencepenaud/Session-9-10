@@ -1,12 +1,12 @@
 file_name = "x-file.txt"
 fd = open(file_name) # r is implicit
 print("here are the contents of the file:")
-#print(fd.read())
-#fd.close()
-#another way is to read line by line
+# print(fd.read())
+# fd.close()
+# another way is to read line by line
 for line in fd:
-    #print(line, end="")
-    #print(line, strip())
+    # print(line, end="")
+    # print(line, strip())
     print(line.replace("\n",""))
 fd.close()
 
