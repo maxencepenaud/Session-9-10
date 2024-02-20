@@ -42,4 +42,4 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
-print(factorial(5)) #sjould be 120
+print(factorial(5)) #should be 120
